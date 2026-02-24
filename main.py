@@ -7,7 +7,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-ADMIN_NUMBER = os.getenv("2250564930501")
+ADMIN_NUMBER = os.getenv("ADMIN_NUMBER")
 
 AUTHORIZED_NUMBERS = [ADMIN_NUMBER]
 recent_messages = {}
